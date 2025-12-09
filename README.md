@@ -139,3 +139,32 @@ updatedAt                           createdAt
 ```
 ✔ One Author → Many Posts
 ✔ Cascade delete enabled
+
+## 🧪 Postman Collection
+
+---
+
+A Postman collection (postman_collection.json) is included to test all API endpoints.
+
+## 📂 Folder Structure
+
+---
+
+```
+Blog-api/
+├── config/
+│   └── database.js
+├── controllers/
+│   ├── authorController.js
+│   └── postController.js
+├── models/
+│   ├── Author.js
+│   └── Post.js
+├── routes/
+│   ├── authorRoutes.js
+│   └── postRoutes.js
+├── .env.example
+├── package.json
+├── server.js
+├── README.md
+```
