@@ -1,4 +1,4 @@
-# 📘 Blog API – Node.js + Express + MySQL + Sequelize
+# 📘 Blog API – Node.js + Express + MySQL
 
 A simple and clean RESTful API for managing **Authors** and their **Posts**.  
 This project demonstrates:
@@ -96,8 +96,8 @@ Server running on http://localhost:3000
 **POST** `/authors`
 ```json
 {
-  "name": "Rohit",
-  "email": "rohit@example.com"
+  "name": "Jaswanth",
+  "email": "jaswanth@example.com"
 }
 ```
 ➤ Get All Posts
@@ -168,3 +168,9 @@ Blog-api/
 ├── server.js
 ├── README.md
 ```
+
+## 👤 Author
+
+---
+
+Jaswanth
