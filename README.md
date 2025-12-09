@@ -47,3 +47,33 @@ This project demonstrates:
 ```bash
 git clone https://github.com/YOUR_USERNAME/blog-api.git
 cd blog-api
+
+## 2️⃣ Install dependencies
+```bash
+npm install
+
+## 3️⃣ Create a database in MySQL
+Login to MySQL:-
+```bash
+mysql -u root -p
+Create the database:-
+```bash
+CREATE DATABASE blog_api;
+
+## 4️⃣ Create .env file
+Inside project root, create .env:-
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=yourpassword
+DB_NAME=blog_api
+
+⚠️ .env is ignored in GitHub → use .env.example.
+
+## 5️⃣ Start the server
+```bash
+**npm run dev
+**
+
+
+
+
