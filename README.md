@@ -122,3 +122,20 @@ DELETE /posts/:id
 GET /authors/:id/posts
 
 
+## 📊 Database Schema (ERD)
+
+---
+
+```
+┌───────────────┐          1        ┌───────────────┐
+│    Authors     │──────────────────▶│     Posts      │
+└───────────────┘                   └───────────────┘
+id (PK)                             id (PK)
+name                                title
+email (unique)                      content
+createdAt                           author_id (FK)
+updatedAt                           createdAt
+                                    updatedAt
+```
+✔ One Author → Many Posts
+✔ Cascade delete enabled
