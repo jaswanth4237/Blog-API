@@ -76,6 +76,49 @@ DB_NAME=blog_api
 ```bash
 npm run dev
 ```
+Server runs at:-
+```bash
+http://localhost:3000
+```
+Expected Terminal Output:-
+```bash
+Database synced
+Server running on http://localhost:3000
+```
 
+# 📚 API Documentation
+
+---
+
+## 👤 Author Routes
+
+### ➤ Create Author  
+**POST** `/authors`
+```json
+{
+  "name": "Rohit",
+  "email": "rohit@example.com"
+}
+```
+➤ Get All Posts
+
+GET /posts
+(Includes author details)
+
+➤ Get Post by ID
+
+GET /posts/:id
+
+➤ Update Post
+
+PUT /posts/:id
+
+➤ Delete Post
+
+DELETE /posts/:id
+
+➤ Get Posts of an Author
+
+GET /authors/:id/posts
 
 
