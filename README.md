@@ -47,7 +47,7 @@ This project demonstrates:
 ```bash
 git clone https://github.com/YOUR_USERNAME/blog-api.git
 cd blog-api
-
+\```bash
 ## 2️⃣ Install dependencies
 ```bash
 npm install
