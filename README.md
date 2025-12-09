@@ -170,7 +170,4 @@ Blog-api/
 ```
 
 ## 👤 Author
-
----
-
-Jaswanth
+  Jaswanth
