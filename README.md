@@ -45,7 +45,7 @@ This project demonstrates:
 
 ## 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Blog-API.git
+git clone https://github.com/jaswanth4237/Blog-API.git
 cd blog-api
 ```
 ## 2️⃣ Install dependencies
