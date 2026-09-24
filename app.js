@@ -11,7 +11,7 @@ app.use(express.json());
 
 // test DB connection and sync tables
 sequelize
-  .sync() // you can use { alter: true } during development
+  .sync() 
   .then(() => console.log("Database synced"))
   .catch((err) => console.error("DB sync error:", err));
 
