@@ -1,6 +1,6 @@
 # 📘 Blog API – Node.js + Express + MySQL
 
-A simple, clean RESTful API for managing **Authors** and their **Posts**.  
+A simple and clean RESTful API for managing **Authors** and their **Posts**.  
 This project demonstrates:
 
 - Relational database design (One-to-Many)
